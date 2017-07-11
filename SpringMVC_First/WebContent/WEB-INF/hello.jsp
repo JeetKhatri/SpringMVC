@@ -7,6 +7,7 @@
 <title>inside WEB-INF</title>
 </head>
 <body>
-<h1>${msg}</h1>
+<h1>welcome ${student.studentName}</h1>
+<h1>Your hobby is ${student.studentHobby}</h1>
 </body>
 </html>

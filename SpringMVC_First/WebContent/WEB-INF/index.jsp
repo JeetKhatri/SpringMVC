@@ -8,8 +8,8 @@
 </head>
 <body>
 <form action="./welcome" method="post">
-<input type="text" name="name">
-<input type="text" name="hobby">
+<input type="text" name="studentName">   <!-- same name which is inside studentbean then work -->
+<input type="text" name="studentHobby">
 <input type="submit" value="sayHello">
 </form>
 </body>
