@@ -11,8 +11,9 @@ public class HelloWorldController extends AbstractController{
 	@Override
 	protected ModelAndView handleRequestInternal(HttpServletRequest req, HttpServletResponse res) throws Exception {
 		System.out.println("on controller");
+		String name = req.getParameter("name");
 		ModelAndView obj = new ModelAndView("hello");   /*jsp name : hello*/
-		obj.addObject("msg", "welcome to home page");
+		obj.addObject("msg", "welcome "+name+" to home page");
 		return obj;
 	}
 }
