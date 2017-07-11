@@ -1,0 +1,16 @@
+Spring MVC :-
+-	Spring MVC is web application development framework based on MVC guidelines.	
+-	user request for webpage then that request received by front controller.(DispatcherServlet)
+-	front controller who controls the complete application flow.
+-	Job of front controller is to prepare and send the response to the client.
+-	See image mvc.jpg
+-	As per image, all the incoming request is handle by the DispatcherServlet that works as the front controller. 
+-	The DispatcherServlet gets entry of handler mapping from the xml file and forwards the request to the controller.
+-	The controller returns an object of ModelAndView. 
+-	The DispatcherServlet checks the entry of view resolver in the xml file and invokes the specified view component.
+
+To write it follow 4 steps :-
+-	Modify web.xml file
+-	create spring's xml
+-	Controller
+-	view
