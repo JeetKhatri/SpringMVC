@@ -20,3 +20,13 @@ Annotation :-
 -	If we use annotation then we do not to write entry in xml.
 -	for controller use annotation @controller
 -	when we call for welcome and for that link we have to use @RequestMapping("welcome") because we didn't write it in xml
+-	flow:-
+	-	call for page
+	-	check in web.xml handle front controller
+	-	it sent to servet.xml then 
+	-	<context:component-scan base-package="com.controller" /> write it so scan all class
+	-	check for page call here welcome page call so that method call
+	-	return ModelAndView object
+	-	then go to viewResolver it add prefix and suffix in url
+	-	then call that page
+	-	this call also contain data ex: here 'name'
