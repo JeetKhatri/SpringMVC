@@ -9,8 +9,14 @@ Spring MVC :-
 -	The controller returns an object of ModelAndView. 
 -	The DispatcherServlet checks the entry of view resolver in the xml file and invokes the specified view component.
 
+
 To write it follow 4 steps :-
--	Modify web.xml file
+-	Modify web.xml file 
 -	create spring's xml
 -	Controller
 -	view
+
+Annotation :-
+-	If we use annotation then we do not to write entry in xml.
+-	for controller use annotation @controller
+-	when we call for welcome and for that link we have to use @RequestMapping("welcome") because we didn't write it in xml
