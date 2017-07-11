@@ -30,7 +30,9 @@ public class HelloWorldController {
 		return obj;
 	}*/
 	
+	// above is simple getter setter 
 	// or
+	// below using model attribute (name must same jsp & bean)
 	
 	@RequestMapping(value="/welcome",method=RequestMethod.POST)
 	public ModelAndView welcome(@ModelAttribute("student") StudentBean student){
