@@ -36,7 +36,7 @@ public class HelloWorldController {
 	
 	@RequestMapping(value="/welcome",method=RequestMethod.POST)
 	public ModelAndView welcome(@ModelAttribute("student") StudentBean student){
-		
+		System.out.println("ok here");
 		ModelAndView obj = new ModelAndView("hello");   /*jsp name : hello*/
 		return obj;
 	}

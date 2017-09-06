@@ -13,7 +13,6 @@
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix">
 			<value>/WEB-INF/</value>	<!--  then inside WEB-INF -->
-			<!-- <value>/</value>  --> 
 		</property>
 		<property name="suffix">
 			<value>.jsp</value>
